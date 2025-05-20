@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simple Clicker App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h3>Clicker Application</h3>
+        <button id="click-btn">Click me!</button>
+        <div class="success-container" id="count-display">Clicks: 0</div>
+    </div>
+
+    <script>
+        const button = document.getElementById('click-btn');
+        const display = document.getElementById('count-display');
+        let count = 0;
+
+        button.addEventListener('click', () => {
+            count++;
+            display.textContent = 'Clicks: ' + count;
+        });
+    </script>
+</body>
+</html>
