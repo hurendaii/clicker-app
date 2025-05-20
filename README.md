@@ -50,6 +50,12 @@ You’ll now see a **primary endpoint URL** — this will be your website URL.
 
 Open the **primary endpoint URL** (looks like `https://yourstoragename.z13.web.core.windows.net`) in a browser — your app should be live!
 
+### 5. Screenshot of Application
+
+Below is a screenshot of the Clicker App running live on Azure Blob Storage. The app is deployed as a static website using Azure's free hosting tier.
+
+![image](https://github.com/user-attachments/assets/8f26b447-4c22-4430-9a3f-d844d7db5130)
+
 ## 🧾 License
 
 MIT
